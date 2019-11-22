@@ -23,6 +23,7 @@
 		FC1C38B62386E16000658918 /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1C38B22386E16000658918 /* Country+CoreDataProperties.swift */; };
 		FC1C38B72386E16000658918 /* Candy+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1C38B32386E16000658918 /* Candy+CoreDataClass.swift */; };
 		FC1C38B82386E16000658918 /* Candy+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1C38B42386E16000658918 /* Candy+CoreDataProperties.swift */; };
+		FCE267862388202000EA2D1E /* FilteredListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE267852388202000EA2D1E /* FilteredListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		FC1C38B22386E16000658918 /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		FC1C38B32386E16000658918 /* Candy+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataClass.swift"; sourceTree = "<group>"; };
 		FC1C38B42386E16000658918 /* Candy+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FCE267852388202000EA2D1E /* FilteredListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,22 +78,15 @@
 		FC1C388F2386849000658918 /* CoreDataProjectIntro */ = {
 			isa = PBXGroup;
 			children = (
-				FC1C38B12386E16000658918 /* Country+CoreDataClass.swift */,
-				FC1C38B22386E16000658918 /* Country+CoreDataProperties.swift */,
-				FC1C38B32386E16000658918 /* Candy+CoreDataClass.swift */,
-				FC1C38B42386E16000658918 /* Candy+CoreDataProperties.swift */,
-				FC1C38AB2386AB7D00658918 /* Singer+CoreDataClass.swift */,
-				FC1C38AC2386AB7D00658918 /* Singer+CoreDataProperties.swift */,
+				FCE267882388206200EA2D1E /* View */,
+				FCE267872388203E00EA2D1E /* CoreData */,
 				FC1C38902386849000658918 /* AppDelegate.swift */,
 				FC1C38A723868B6B00658918 /* Movie+CoreDataClass.swift */,
 				FC1C38A823868B6B00658918 /* Movie+CoreDataProperties.swift */,
 				FC1C38922386849000658918 /* SceneDelegate.swift */,
-				FC1C38972386849000658918 /* ContentView.swift */,
-				FC1C38AF2386B6A500658918 /* FilteredList.swift */,
 				FC1C38992386849300658918 /* Assets.xcassets */,
 				FC1C389E2386849300658918 /* LaunchScreen.storyboard */,
 				FC1C38A12386849300658918 /* Info.plist */,
-				FC1C38942386849000658918 /* CoreDataProjectIntro.xcdatamodeld */,
 				FC1C389B2386849300658918 /* Preview Content */,
 			);
 			path = CoreDataProjectIntro;
@@ -103,6 +98,30 @@
 				FC1C389C2386849300658918 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FCE267872388203E00EA2D1E /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				FC1C38942386849000658918 /* CoreDataProjectIntro.xcdatamodeld */,
+				FC1C38B12386E16000658918 /* Country+CoreDataClass.swift */,
+				FC1C38B22386E16000658918 /* Country+CoreDataProperties.swift */,
+				FC1C38B32386E16000658918 /* Candy+CoreDataClass.swift */,
+				FC1C38B42386E16000658918 /* Candy+CoreDataProperties.swift */,
+				FC1C38AB2386AB7D00658918 /* Singer+CoreDataClass.swift */,
+				FC1C38AC2386AB7D00658918 /* Singer+CoreDataProperties.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		FCE267882388206200EA2D1E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC1C38972386849000658918 /* ContentView.swift */,
+				FCE267852388202000EA2D1E /* FilteredListView.swift */,
+				FC1C38AF2386B6A500658918 /* FilteredList.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +198,7 @@
 				FC1C38AD2386AB7D00658918 /* Singer+CoreDataClass.swift in Sources */,
 				FC1C38912386849000658918 /* AppDelegate.swift in Sources */,
 				FC1C38B02386B6A500658918 /* FilteredList.swift in Sources */,
+				FCE267862388202000EA2D1E /* FilteredListView.swift in Sources */,
 				FC1C38932386849000658918 /* SceneDelegate.swift in Sources */,
 				FC1C38982386849000658918 /* ContentView.swift in Sources */,
 				FC1C38B82386E16000658918 /* Candy+CoreDataProperties.swift in Sources */,
